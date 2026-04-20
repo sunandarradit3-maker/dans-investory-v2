@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/laporan-harian",
+      "schedule": "0 13 * * *"
+    },
+    {
+      "path": "/api/laporan-mingguan",
+      "schedule": "0 13 * * 1"
+    }
+  ]
+}
